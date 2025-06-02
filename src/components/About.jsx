@@ -3,6 +3,7 @@ import '../App.css';
 import myImage from '../assets/photo.jpg'; // Update with your image path
 const About = () => {
   return (
+   <>
     <section className="min-h-screen flex items-center justify-center px-6 pt-20 sm:ml-32">
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-5xl font-bold mb-16 bg-gradient-to-r from-yellow-400 to-amber-400 bg-clip-text text-transparent">
@@ -42,7 +43,13 @@ I’m passionate about learning and continuously improving, whether it’s explo
           </div>
         </div>
       </div>
+      
     </section>
+  
+   
+   </>
+
+    
   );
 };
 export default About;

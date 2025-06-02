@@ -43,7 +43,12 @@ return (
             <div className="container mx-auto px-4 sm:px-6 py-4 flex justify-between items-center">
                 {/* Stylish M Logo */}
                 <div className="text-3xl font-bold bg-gradient-to-r from-yellow-400 to-amber-400 bg-clip-text text-transparent transform hover:scale-110 transition-all duration-300">
-                    <span className="sm:font-serif italic text-4xl text-amber-50">MJ</span>
+                    {/* <span className="sm:font-serif italic text-4xl text-amber-50">Mk</span> */}
+                   <span className="text-3xl sm:text-4xl font-bold italic bg-gradient-to-r from-amber-100 via-amber-200 to-rose-400 bg-clip-text text-transparent animate-bounce-once font-[Pacifico]">
+  Mk
+</span>
+
+
                 </div>
 
                 {/* Hamburger for mobile */}
