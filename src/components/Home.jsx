@@ -2,6 +2,11 @@
     import React, { useState, useEffect } from 'react';
     import { Download } from 'lucide-react'; // <-- ADD THIS
 import image from '../assets/Heroimage.jpg'; // <-- ADD THIS
+import Skills from './Skills';
+import Projects from './Projects';
+import Experience from './Experience';
+import About from './About';
+import Contact from './Contact';
     // Home Component
     const Home = ({ onNavigate }) => {
     const [isVisible, setIsVisible] = useState(false);
@@ -15,7 +20,8 @@ import image from '../assets/Heroimage.jpg'; // <-- ADD THIS
     };
 
     return (
-        <section className={`min-h-screen  flex items-center justify-center px-8 transform transition-all ml-2  duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`} >
+      <>
+        <section className={`  flex items-center justify-center px-8 transform transition-all ml-2  duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`} >
             <div className='flex '>
         <div className="text-center sm:w-5xl"><img src={image} alt="Mayank Jain" className="sm:float-right mt-16 animate-pulse rounded-3xl w-80 h-80 z-50 object-cover mb-8" />
             <div className="mb-8 sm:mt-16 transform  transition-all duration-500">
@@ -23,7 +29,7 @@ import image from '../assets/Heroimage.jpg'; // <-- ADD THIS
             Mayank Jain
             </p>
             <p className="text-2xl md:text-3xl text-gray-300 mb-8 transform hover:text-yellow-300 transition-colors duration-300">
-            Full Stack Web Developer
+            Java Full Stack Developer
             </p>
           
             
@@ -48,6 +54,18 @@ import image from '../assets/Heroimage.jpg'; // <-- ADD THIS
         </div>
           </div>
         </section>
+
+       
+
+          <Skills />
+          <Projects />
+          <Experience />
+          <About />
+          <Contact />
+         
+        
+      
+      </>
         );
     };
     export default Home; // <-- EXPORT THIS COMPONENT

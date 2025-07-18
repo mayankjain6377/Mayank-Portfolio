@@ -4,8 +4,12 @@ import {
   FaJs, FaGitAlt, FaGithub, FaDocker, FaAws
 } from 'react-icons/fa';
 import { 
+ SiMicrodotblog, SiSwagger, SiJsonwebtokens ,
   SiSpringboot, SiHibernate, SiMysql, SiPostgresql, SiKotlin, SiPython 
 } from 'react-icons/si';
+
+
+
 
 // Skills Component
 const Skills = () => {
@@ -99,6 +103,18 @@ const Skills = () => {
       icon: SiPostgresql, 
       color: 'from-blue-500 to-indigo-600',
       iconColor: 'text-blue-700 hover:text-indigo-500'
+    },
+    { 
+      name: 'Microservices', 
+      icon: SiMicrodotblog, 
+      color: 'from-blue-500 to-indigo-600',
+      iconColor: 'text-green-700 hover:text-indigo-500'
+    },
+    { 
+      name: 'Swagger', 
+      icon: SiSwagger, 
+      color: 'from-blue-500 to-indigo-600',
+      iconColor: 'text-green-700 hover:text-green-500'
     }
   ];
 
