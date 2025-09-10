@@ -16,7 +16,7 @@ import Contact from './Contact';
     }, []);
 
     const handleDownloadResume = () => {
-        window.open('https://drive.google.com/file/d/1eqie-FXSIJpAcfcjHxjdm_R7XEzHPLwU/view?usp=drive_link', '_blank');
+        window.open('https://drive.google.com/file/d/1eUMI8dslnL7nfGrsY78TQXuj-gPMdp5O/view?usp=drive_link', '_blank');
     };
 
     return (
